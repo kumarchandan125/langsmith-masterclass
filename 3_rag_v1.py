@@ -16,7 +16,7 @@ from langchain_core.runnables import (
 )
 from langchain_core.output_parsers import StrOutputParser
 
-
+os.environ['LANGCHAIN_PROJECT']='RAG chatbot'
 
 # 1. Load environment variables
 load_dotenv()
